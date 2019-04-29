@@ -53,11 +53,8 @@ function flipCard() {
   };
 
 console.log(`User flipped ${cards[cardId].rank}.`);
-
-
 console.log(cards[cardId].cardImage);
 console.log(cards[cardId].suit);
 }
 
 createBoard();
-
